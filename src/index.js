@@ -5,6 +5,7 @@ import FormSubmitAntd from "./c_form/FormAntd";
 import ListSample from "./c_01/App";
 import WizardSample from "./c_02/App";
 import DndSample from "./dnd/sample";
+import NestedRoute from "./c_03/NestedRoute";
 
 import './index.css';
 import "antd/dist/antd.css";
@@ -18,7 +19,9 @@ const routeMap = {
 	'list-page': ListSample,
 	'wizard-sample': WizardSample,
 	"form-submit-antd": FormSubmitAntd,
-	"dnd-sample": DndSample
+	"dnd-sample": DndSample,
+	"nested-route": NestedRoute
+
 }
 const Hello = () => (
 	<div>
